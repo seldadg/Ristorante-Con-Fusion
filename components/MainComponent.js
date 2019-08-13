@@ -117,7 +117,7 @@ const ContactUsNavigator = createStackNavigator({
       headerTintColor: "#fff",
       headerLeft: <Icon name="menu" size={24}
         iconStyle={{ color: 'white' }} 
-        onPress={ () => navigation.navigate('DrawerToggle') } />    
+        onPress={ () => navigation.toggleDrawer() } />    
     })
   });
 
