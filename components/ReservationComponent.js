@@ -114,7 +114,7 @@ class Reservation extends Component {
 
                         <Button
                             onPress={() => { this.toggleModal(); this.resetForm(); }}
-                            color="#512DA8"
+                            buttonStyle={{ backgroundColor: '#512DA8' }}
                             title="Close"
                         />
                     </View>
